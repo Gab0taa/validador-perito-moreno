@@ -44,7 +44,7 @@ if dni_buscado:
             st.balloons()
         else:
             st.error("❌ EL DNI NO FIGURA EN EL PADRÓN")
-            st.info("Debe registrarse en el bloque municipal para acceder al beneficio.")
+            st.info("Debe registrarse en el bloque de Valeria Garcia en el HCD para acceder al beneficio.")
             
     except Exception as e:
         st.error("Hubo un error al procesar los datos.")
@@ -52,4 +52,5 @@ if dni_buscado:
         
 # --- FOOTER PERSONALIZADO ---
 st.markdown("---")
+
 st.markdown('<p style="color: grey; text-align: center;">Proyecto llevado a cabo por Valeria Garcia Concejal</p>', unsafe_allow_html=True)
